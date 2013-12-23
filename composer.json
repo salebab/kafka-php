@@ -1,0 +1,15 @@
+{
+    "name": "salebab/kafka-php",
+    "description": "Kafka PHP library",
+    "keywords" : ["kafka", "apache", "php"],
+    "license": "Apache License",
+
+
+    "require": {
+        "php": ">=5.3.3"
+    },
+
+    "autoload": {
+        "psr-0": {"Kafka_": "src/lib/Kafka/""}
+    }
+}
